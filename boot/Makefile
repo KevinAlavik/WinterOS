@@ -7,7 +7,7 @@ ASM_BIN := boot.bin
 all: $(ASM_BIN)
 
 $(ASM_BIN): $(ASM_SRC)
-	@printf "\tAS $@\n"
+	@printf "\tAS $<\n"
 	@$(ASM) -p $< -o $@
 
 clean:
