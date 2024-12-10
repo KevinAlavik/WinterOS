@@ -50,3 +50,10 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Output paths
+bin/
+dist/
+
+# Output formats
+*.bin
