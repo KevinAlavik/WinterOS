@@ -12,7 +12,7 @@ This will produce an `dist/disk.iso`, to use this you can run it like this:
 ```sh
 frost64-emu -p firmware.bin -D dist/disk.iso
 ```
-*Note: The firmware.bin is provided by WinterOS in dist/firwmare.bin, but we dont grantee that its up-to date. So you can get your own firmware build from: https://github.com/Frost64-dev/f64-firmware*
+*Note: The firmware.bin is provided by WinterOS in dist/firwmare.bin, but we dont grantee that its up-to date. So you can get your own firmware build from: https://github.com/kevinalavik/WinterOS-Firmware, this is a fork of the official firmware.*
 
 # License
 
