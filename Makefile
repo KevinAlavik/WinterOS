@@ -39,6 +39,6 @@ clean:
 	$(MAKE) -C $(BOOT_DIR) clean
 	rm -rf $(BIN_DIR) $(DIST_DIR)
 
-run: all
+debug: all
 	@printf "\tRUN $(DISK_IMAGE)\n"
 	@$(EMU) -p$(FIRMWARE_BIN) -D$(DISK_IMAGE)
