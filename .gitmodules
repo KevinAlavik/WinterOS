@@ -1,0 +1,3 @@
+[submodule "firmware"]
+	path = firmware
+	url = https://github.com/Frost64-dev/f64-firmware.git
